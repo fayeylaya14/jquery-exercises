@@ -1,6 +1,7 @@
 # jquery-exercises
 
-**Form Validation Using Native Jquery Code
+**Form Validation Using Native Jquery Code**
+
 Write a program that will create a jquery event to validate inputted text inside the form input. 
 
 1. Build your HTML form. For me, I used bootstrap framework to format my Page properly for readability and User Experience
