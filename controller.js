@@ -20,7 +20,7 @@ $(document).ready(function(){
         if(email.length < 1) {
             $('#emailAd').after('<span class="error"> This field is required!</span>');
         } else {
-            var regEx =  /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
+            var regEx =  /^[A-Za-z0-9][A-Za-z0-9._%+-]{0,63}@(?:[A-Za-z0-9]{1,63}\.){1,125}[A-Za-z]{2,63}$/
             var checkValid = regEx.test(email);
 
             if(!checkValid) {
